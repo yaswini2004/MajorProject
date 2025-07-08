@@ -1,0 +1,33 @@
+.loginPageContainer{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.loginPage{
+    /* width: 100%; */
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.loginOptions{
+    display: flex;
+    gap: 20px;
+}
+
+.login{
+    background-color: grey;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #d3d3d3;
+}
