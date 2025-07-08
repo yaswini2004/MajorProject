@@ -1,0 +1,98 @@
+.loginContainer{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 100px 70px;
+    border-radius: 50px;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inputLabels{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.option{
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+
+.option::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    background-color: #007bff;
+    transition: width 0.3s ease;
+}
+
+.option:hover::after{
+    width: 100%;
+}
+
+.loginForm{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+}
+
+.loginForm input{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 20px;
+    min-width: 300px;
+}
+
+.loginButton{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
+.username,.email{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+.active::after{
+    width: 100%;
+}
+
+.signupText{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.signup{
+    color: #007bff;
+    cursor: pointer;
+}
